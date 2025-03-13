@@ -1,24 +1,25 @@
-# Unity Generated Folders
+# =============== #
+# Unity Generated  #
+# =============== #
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-[Mm]emoryCaptures/
+UserSettings/
 
-# Asset meta data should only be ignored when the corresponding asset is also ignored
-*.meta
-
-# Auto-generated files by Unity
+# =============== #
+# Auto-generated files #
+# =============== #
 *.csproj
-*.pidb
+*.unityproj
 *.sln
 *.suo
 *.tmp
 *.user
 *.userprefs
-*.unityproj
+*.pidb
 *.booproj
 *.svd
 *.pdb
@@ -26,33 +27,67 @@
 *.opendb
 *.VC.db
 
-# Crash Reports
-CrashReports/
-
-# Unity Package Manager
-Packages/com.unity.package-manager-ui
-Packages/manifest.json.meta
+# =============== #
+# Unity Package Manager #
+# =============== #
+Packages/manifest.json
 Packages/packages-lock.json
 
-# ScriptableObject Backup Files
-*.bak
+# =============== #
+# Crash Reports #
+# =============== #
+sysinfo.txt
 
-# Gradle files
-.gradle/
+# =============== #
+# Unity Cache #
+# =============== #
+[Ss]treamingAssets/UnityPlayer.log
+
+# =============== #
+# IDEs and Editors #
+# =============== #
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.VC.opendb
+
+# =============== #
+# Other #
+# =============== #
+*.DS_Store
 *.apk
 *.aab
-
-# VS Code
-.vscode/
-
-# Rider Project Files
-.idea/
-*.iml
-
-# JetBrains Rider
-*.sln.iml
-
-# Unity Cloud Build
-/[Cc]ache/
-*.cloud
+*.ipa
+*.iOS
+*.android
+*.tmp
 *.log
+*.orig
+*.patch
+*.asset
+*.generated.cs
+.DS_Store
+Thumbs.db
+
+# =============== #
+# Visual Studio Code #
+# =============== #
+.vscode/
+*.code-workspace
+
+# =============== #
+# Rider #
+# =============== #
+.idea/
+*.sln.iml
